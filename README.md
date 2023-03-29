@@ -53,3 +53,5 @@ cd /bowiedocs
 poetry run mkdocs serve
 
 poetry run mkdocs build
+
+mv site ../
