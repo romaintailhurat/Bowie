@@ -2,16 +2,15 @@
 
 WORK_DIR="/home/onyxia/work"
 REPO_URL="https://github.com/romaintailhurat/Bowie.git"
+REPO_DIR="${WORK_DIR}/Bowie"
 
 curl -sSL https://install.python-poetry.org | python3 -
-
 export PATH="/home/onyxia/.local/bin:$PATH"
 
-git clone $REPO_URL $WORK_DIR
+cd $WORK_DIR
+git clone $REPO_URL
 
-cd /home/onyxia/work/Bowie
-
+cd $REPO_DIR
 git switch pages
 
 poetry install
-
