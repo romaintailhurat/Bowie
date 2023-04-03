@@ -26,32 +26,37 @@ Les pages sont de simples documents Markdown, la navigation est générée à pa
 
 #### Sur son poste
 
+<TODO>
+
 #### Sur le datalab
 
-F1 terminal
+Lancer un environnement pré-configuré sur le datalab:
 
-curl -sSL https://install.python-poetry.org | python3 -
+https://datalab.sspcloud.fr/launcher/ide/vscode-python?autoLaunch=false&init.personalInit=%C2%ABhttps%3A%2F%2Fraw.githubusercontent.com%2Fromaintailhurat%2FBowie%2Fpages%2Finit.sh%C2%BB
 
-export PATH="/home/onyxia/.local/bin:$PATH"
+Une fois dans VSCode:
 
-poetry --version
-
-=> écrire script
+- ouvrir un terminal (F1 > Terminal: Create new)
+- coller `export PATH="/home/onyxia/.local/bin:$PATH"` puis entrée
 
 #### Utiliser MkDocs
 
-git clone Bowie
+Une fois tout bien configuré en suivant une des méthodes précédentes, vous pouvez commencer à travailler sur le site (cf. la documentation donnée au paragraphe "Contribuer" plus haut.)
 
-cd Bowie
+Pour visualiser les changements apportés, il faut (toujours dans un terminal) lancer la commande suivante:
 
-git switch <la branche>
+`poetry run mkdocs serve`
 
-poetry install
+qui va lancer un serveur local permettant de voir le fonctionnement du site.
 
-cd /bowiedocs
+#### Publier les changements
 
-poetry run mkdocs serve
+Pour publier les changements (après avoir bien sûr commité les changements dans le fichiers source eux-mêmes), il faut produire le suite lui-même.
 
-poetry run mkdocs build
+Pour cela, sous `Bowie/bowiedocs`, il faut jouer la commande:
 
-mv site ../docs
+`poetry run mkdocs build`
+
+Qui va produire un dossier `site` contenant les nouvelles pages. Pour la publication via GitHub Pages, il remonter le dossier d'un cran et changer son nom:
+
+`mv site ../docs`
