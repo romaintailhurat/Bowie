@@ -1,7 +1,7 @@
 #!/bin/bash
 
-WORK_DIR = "/home/onyxia/work"
-REPO_URL = "https://github.com/romaintailhurat/Bowie.git"
+WORK_DIR="/home/onyxia/work"
+REPO_URL="https://github.com/romaintailhurat/Bowie.git"
 
 curl -sSL https://install.python-poetry.org | python3 -
 
