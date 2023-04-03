@@ -23,7 +23,7 @@ Celui-ci est vide, donnons-lui du contenu ! :smile:
 
 Pour créer la première séquence, il suffit de cliquer sur le bouton "+ Séquence" de la barre d'actions :
 
-![Création d'une séquence](/img/pogues/barre-actions-sequence.png)
+![Création d'une séquence](img/pogues/barre-actions-sequence.png)
 
 Dans la fenêtre modale qui s'ouvre, on remplit deux champs :
 
@@ -34,9 +34,9 @@ Les modes de collecte restent les mêmes que ceux du questionnaire.
 
 Pour finaliser la création, on appuie sur le bouton "Valider" en bas de la fenêtre :
 
-![Valider la séquence](/img/pogues/creation-sequence-valider.png)
+![Valider la séquence](img/pogues/creation-sequence-valider.png)
 
-![Barre d'actions](/img/pogues/barre-actions.png)
+![Barre d'actions](img/pogues/barre-actions.png)
 
 ## Création d'une question
 
