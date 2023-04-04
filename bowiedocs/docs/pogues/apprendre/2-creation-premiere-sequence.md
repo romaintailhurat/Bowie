@@ -23,7 +23,7 @@ Celui-ci est vide, donnons-lui du contenu ! :smile:
 
 Pour créer la première séquence, il suffit de cliquer sur le bouton "+ Séquence" de la barre d'actions :
 
-![Création d'une séquence](img/pogues/barre-actions-sequence.png)
+![Création d'une séquence](../../img/pogues/barre-actions-sequence.png)
 
 Dans la fenêtre modale qui s'ouvre, on remplit deux champs :
 
