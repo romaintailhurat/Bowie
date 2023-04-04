@@ -53,10 +53,16 @@ qui va lancer un serveur local permettant de voir le fonctionnement du site.
 
 Pour publier les changements (après avoir bien sûr commité les changements dans le fichiers source eux-mêmes), il faut produire le suite lui-même.
 
-Pour cela, sous `Bowie/bowiedocs`, il faut jouer la commande:
+En premier lieu, s'il existe, il faut supprimer le dossier `docs` à la racine (normalement, le dossier `Bowie`):
+
+`rm -rf docs`
+
+Ensuite, sous `Bowie/bowiedocs`, il faut jouer la commande:
 
 `poetry run mkdocs build`
 
-Qui va produire un dossier `site` contenant les nouvelles pages. Pour la publication via GitHub Pages, il remonter le dossier d'un cran et changer son nom:
+Elle va produire un dossier `site` contenant les nouvelles pages. Pour la publication via GitHub Pages, il remonter le dossier d'un cran et changer son nom:
 
 `mv site ../docs`
+
+On peut ensuite commiter et pousser les changements (`git commit` puis `git push`).
