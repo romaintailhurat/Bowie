@@ -2,7 +2,7 @@
 
 Sur la page d'accueil de Pogues, le bouton suivant est visible :
 
-![Bouton de création d'un questionnaire](/img/pogues/creation-questionnaire-go.png)
+![Bouton de création d'un questionnaire](../../img/pogues/creation-questionnaire-go.png)
 
 En cliquant sur le bouton, on ouvre la fenêtre de création du questionnaire. Celle-ci permet de renseigner les informations de classement du questionnaire dans un processus statistique et les paramètres importants au fonctionnement du questionnaire lui-même.
 

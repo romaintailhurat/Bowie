@@ -4,7 +4,7 @@ La promesse de Pogues c'est de permettre la visualisation rapide du questionnair
 
 Pour cela, en cliquant sur le bouton "Visualiser", on choisit le type de questionnaire que l'on veut générer.
 
-![Choix des visualisations](/img/pogues/visualisation-choix.png)
+![Choix des visualisations](../../img/pogues/visualisation-choix.png)
 
 Pour cette première fois, on choisit l'option "Web V2".
 

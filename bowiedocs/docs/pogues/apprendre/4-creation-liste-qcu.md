@@ -4,7 +4,7 @@ Dans notre première version de la question "OKREP", nous avons choisi comme for
 
 Pour modifier la question, il faut sélectionner l'élément qui matérialise cette dernière puis cliquer sur le bouton "Voir le détail" :
 
-![Modifier une question](/img/pogues/modification-question-okrep.png)
+![Modifier une question](../../img/pogues/modification-question-okrep.png)
 
 ## Création d'une liste
 
@@ -12,7 +12,7 @@ Modifions dans l'onglet "Format des réponses" le _Type de question_ pour choisi
 
 On garde l'option "Créer une liste", puis on donne un nom à la liste que l'on va créer, par exemple "LISTE_OUI_NON" (champ _Nouvelle liste de code_).
 
-![Création liste](/img/pogues/qcu-creation-liste.png)
+![Création liste](../../img/pogues/qcu-creation-liste.png)
 
 ## Ajout de modalités
 
@@ -22,8 +22,8 @@ Sous le champ _Nouvelle liste de code_ on trouve les modalités de la liste. Pou
 - dans le champ qui apparaît, en renseignant "1" pour le code de la modalité et "Oui" pour le libellé.
 - même chose avec le code "2" et le libellé "Non".
 
-![Création modalité](/img/pogues/qcu-creation-modalite.png)
+![Création modalité](../../img/pogues/qcu-creation-modalite.png)
 
 ## Finalisation
 
-Nous avons modifié le format de la réponse, il est donc nécessaire [de générer une nouvelle fois la variable sous-jacente](/pogues/apprendre/2-creation-premiere-sequence/#creation-de-la-variable) qui a changé de nature.
+Nous avons modifié le format de la réponse, il est donc nécessaire [de générer une nouvelle fois la variable sous-jacente](../apprendre/2-creation-premiere-sequence/#creation-de-la-variable) qui a changé de nature.
