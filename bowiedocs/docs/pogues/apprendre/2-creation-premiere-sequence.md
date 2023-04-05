@@ -34,9 +34,9 @@ Les modes de collecte restent les mêmes que ceux du questionnaire.
 
 Pour finaliser la création, on appuie sur le bouton "Valider" en bas de la fenêtre :
 
-![Valider la séquence](img/pogues/creation-sequence-valider.png)
+![Valider la séquence](../../img/pogues/creation-sequence-valider.png)
 
-![Barre d'actions](img/pogues/barre-actions.png)
+![Barre d'actions](../../img/pogues/barre-actions.png)
 
 ## Création d'une question
 
