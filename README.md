@@ -43,9 +43,9 @@ Une fois dans VSCode:
 
 Une fois tout bien configuré en suivant une des méthodes précédentes, vous pouvez commencer à travailler sur le site (cf. la documentation donnée au paragraphe "Contribuer" plus haut.)
 
-Pour visualiser les changements apportés, il faut (toujours dans un terminal) lancer la commande suivante:
+Pour visualiser les changements apportés, il faut (toujours dans un terminal) lancer la commande suivante à la racine du dossier de base `Bowie`:
 
-`poetry run mkdocs serve`
+`bash serve.sh`
 
 qui va lancer un serveur local permettant de voir le fonctionnement du site.
 
