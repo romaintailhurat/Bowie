@@ -7,5 +7,7 @@ Les modèles de questionnaires sont générés à partir de leur description for
 Pour générer cette description formelle en DDI, les concepteurs d’enquêtes utilisent Pogues, un outil permettant une saisie conviviale du questionnaire et générant les métadonnées correspondantes au format DDI. 
 
 ## Pogues et Eno, deux outils indissociables 
-Pogues appelle les web services Eno, ce qui permet au concepteur de visualiser immédiatement le questionnaire sous différents formats (web, poste enquêteur, pdf, spécifications), avec des choix de paramètres par défaut).
+
+Pogues appelle les web services Eno, ce qui permet au concepteur de visualiser immédiatement le questionnaire sous différents formats (web, poste enquêteur, pdf, spécifications), avec des choix de paramètres par défaut.
+
 À l’issue des travaux de saisie effectués avec Pogues, le modèle de questionnaire peut être généré et déployé sur une infrastructure de collecte.
