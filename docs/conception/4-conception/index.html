@@ -6,7 +6,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="../3-conception/" rel="prev"/>
-<link href="../guide-conception/" rel="next"/>
+<link href="../../eno/" rel="next"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.3" name="generator"/>
 <title>Les éléments dynamiques : contrôles, filtres et personnalisation - Bowie</title>
@@ -110,7 +110,7 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../3-conception/">
-        Les déclarations (aides, consignes ou commentaires) EN COURS
+        Les déclarations
       </a>
 </li>
 <li class="md-nav__item md-nav__item--active">
@@ -135,11 +135,6 @@
 <nav aria-label="Les contrôles" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#les-questions-obligatoires">
-    Les questions obligatoires
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#les-controles-dits-de-format">
     Les contrôles dits "de format"
   </a>
@@ -151,6 +146,11 @@
 </li>
 </ul>
 </nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cas-particulier-les-questions-obligatoires">
+    Cas particulier : les questions obligatoires
+  </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#les-filtres">
@@ -178,11 +178,6 @@
 </li>
 </ul>
 </nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../guide-conception/">
-        Description de l’offre standard de questionnaire web/papier avec l’outil Eno
-      </a>
 </li>
 </ul>
 </nav>
@@ -227,40 +222,84 @@
           Orchestrateurs
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../orchestrateurs/enqueteur/">Enqueteur</a>
+<label for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+          Enqueteur
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/0-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/enqueteur/1-queen/">
+        Typographie
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../orchestrateurs/enqueteur/2-queen/">
+        Zoning des questionnaires
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../orchestrateurs/web/">Web</a>
+<label for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+          Web
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../orchestrateurs/web/0-stromae/">
         "Stromae" : à quoi ressemble un questionnaire web généré par la filière ?
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/1-stromae/">
-        Découpage du questionnaire et navigation (à revoir avec StromaeV3)
+<a class="md-nav__link" href="../../orchestrateurs/web/1-stromae/">
+        Découpage du questionnaire et navigation
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/2-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/2-stromae/">
         Page de début et page de fin
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/3-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/3-stromae/">
         La barre d'avancement
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/4-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/4-stromae/">
         La mise en forme des questions
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/5-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/5-stromae/">
         La numérotation
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/6-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/6-stromae/">
         La disposition des éléments du questionnaire
       </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -345,11 +384,6 @@
 <nav aria-label="Les contrôles" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#les-questions-obligatoires">
-    Les questions obligatoires
-  </a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="#les-controles-dits-de-format">
     Les contrôles dits "de format"
   </a>
@@ -361,6 +395,11 @@
 </li>
 </ul>
 </nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#cas-particulier-les-questions-obligatoires">
+    Cas particulier : les questions obligatoires
+  </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#les-filtres">
@@ -395,17 +434,16 @@
 <article class="md-content__inner md-typeset">
 <h1 id="les-elements-dynamiques-controles-filtres-et-personnalisation">Les éléments dynamiques : contrôles, filtres et personnalisation</h1>
 <h2 id="les-controles">Les contrôles</h2>
-<p>Deux types de contrôles sont proposés par la filière</p>
-<h3 id="les-questions-obligatoires">Les questions obligatoires</h3>
-<p>Sujet en cours d'instruction</p>
+<p>Deux types de contrôles sont proposés par la filière.</p>
 <h3 id="les-controles-dits-de-format">Les contrôles dits "de format"</h3>
 <p>Ce sont des contrôles bloquants. Ils obligent le répondant à respecter le format et les bornes (max, min) pour les réponses numériques, date, et texte dont le motif est spécifié (pour les SIREN ou SIRET par exemple).
 Ces contrôles se déclenchent à la sortie du champ concerné, et sont matérialisés par un message affiché immédiatement sous le champ concerné. 
-Le texte des messages liés à un contrôle de format est standardisé ==info : à mettre==. Le passage à la page suivante est impossible : une fenêtre (dont la forme et le contenu sont standardisés) invite le répondant à corriger la question et bloque sa navigation vers l'avant.</p>
+Le texte des messages liés à un contrôle de format est standardisé. Le passage à la page suivante est impossible : une fenêtre (dont la forme et le contenu sont standardisés) invite le répondant à corriger la question et bloque sa navigation vers l'avant du questionnaire.</p>
 <h3 id="les-controles-dits-metier-ou-de-coherence">Les contrôles dits "métier" ou "de cohérence"</h3>
-<p>Décrits dans Pogues par le concepteur d'enquête, ils portent sur la cohérence du questionnaire, ne sont pas bloquants et sont matérialisés par un message apparaissant en dessous de la question. Ces messages demandent à l'enquêté de corriger ou valider une réponse : le format et l'emplacement du message est standardisé mais le texte du message affiché est au choix du concepteur.
-S’il reste un contrôle non bloquant sur la page, alors lorsque le répondant demande à passer à la page suivante une pop-up l’invite à corriger sa réponse, mais elle ne bloque pas le passage à la page suivante. Le message est standard sur la forme et sur le fond. 
-==regarder dans V3 Remarque : si un contrôle concerne plusieurs champs, il se déclenche, si la condition est vérifiée, dès la sortie du premier des champs concernés. En particulier, si le contrôle consiste à vérifier que B n’est pas vide, dès lors que A est renseigné, il peut se déclencher dès la sortie de la question A, alors même que le répondant n’a pas encore accédé à la question B. Il convient donc d’attirer l’attention des concepteurs sur cette limite, qui ne résulte pas d’un problème de développement des outils, mais des technologies utilisées==</p>
+<p>Décrits par le concepteur d'enquête, ils portent sur la cohérence du questionnaire, ne sont pas bloquants et sont matérialisés par un message apparaissant en dessous de la question. Ces messages demandent à l'enquêté de corriger ou valider une réponse : le format et l'emplacement du message est standardisé mais le texte du message affiché est au choix du concepteur.
+S'il ne reste que des contrôles non bloquant sur une page, alors lorsque le répondant demande à passer à la page suivante une pop-up l’invite à corriger sa réponse, mais elle ne bloque pas la navigation. </p>
+<h2 id="cas-particulier-les-questions-obligatoires">Cas particulier : les questions obligatoires</h2>
+<p>Sujet en cours d'instruction</p>
 <h2 id="les-filtres">Les filtres</h2>
 <p>On appelle filtre le fait de masquer ou afficher une ou des questions, en fonction des réponses précédentes de l'enquêté, par exemple lorsqu’une condition est vérifiée. 
 Le choix d'afficher ou masquer en première intention est laissé au concepteur : il peut par exemple être préférable d’afficher des questions si elles apportent une information susceptible d’améliorer la compréhension de l’enquêté mais il est préférable de masquer totalement les questions filtrées, dans le cadre de « branches » de questionnaire,</p>
@@ -416,17 +454,16 @@ Le choix d'afficher ou masquer en première intention est laissé au concepteur 
 <h3 id="les-donnees-anterieures-ou-externes">Les données antérieures ou externes</h3>
 <p>Le questionnaire créé par la filière est un « modèle de questionnaire ». Lorsque ce questionnaire est instancié pour un enquêté on peut pré-renseigner certaines informations pour le répondant (exemple : adresse, code APE, réponse de l’année passée) par exemple pour personnaliser des libellés.
 Ces informations sont fournies par la maîtrise d’ouvrage de l’enquête avant le début de la collecte : il peut s’agir de textes, nombres, valeurs booléennes, codes, dans des boucles ou pas, etc.
-==A VERIFIER Le questionnaire peut aussi utiliser ces valeurs dans des champs de collecte pré remplis : dans ce dernier cas, le répondant peut modifier ces informations pré-renseignées==.</p>
+Le questionnaire peut aussi utiliser ces valeurs dans des champs de collecte pré remplis : dans ce dernier cas, le répondant peut modifier ces informations pré-renseignées.</p>
 <h3 id="la-personnalisation-en-cours-de-collecte">La personnalisation en cours de collecte</h3>
-<p>La personnalisation des libellés est également possible à partir de variables collectées, ou calculées en cours de collecte (si la question est posée avant la personnalisation).
-Attention toutefois aux modes de collecte : la personnalisation en cours de collecte ou l'utlisation de filtres personnalisés n'est pas possible sur le papier.</p>
+<p>La personnalisation des libellés est également possible à partir de variables collectées, ou calculées en cours de collecte (si la question est posée avant la personnalisation). Attention toutefois aux modes de collecte : la personnalisation en cours de collecte ou l'utlisation de filtres personnalisés n'est pas possible sur le papier.</p>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
 <nav aria-label="Pied de page" class="md-footer__inner md-grid">
-<a aria-label="Précédent: Les déclarations (aides, consignes ou commentaires) EN COURS" class="md-footer__link md-footer__link--prev" href="../3-conception/" rel="prev">
+<a aria-label="Précédent: Les déclarations" class="md-footer__link md-footer__link--prev" href="../3-conception/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -435,17 +472,17 @@ Attention toutefois aux modes de collecte : la personnalisation en cours de coll
 <span class="md-footer__direction">
                   Précédent
                 </span>
-                Les déclarations (aides, consignes ou commentaires) EN COURS
+                Les déclarations
               </div>
 </div>
 </a>
-<a aria-label="Suivant: Description de l’offre standard de questionnaire web/papier avec l’outil Eno" class="md-footer__link md-footer__link--next" href="../guide-conception/" rel="next">
+<a aria-label="Suivant: Contexte et lexique" class="md-footer__link md-footer__link--next" href="../../eno/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                   Suivant
                 </span>
-                Description de l’offre standard de questionnaire web/papier avec l’outil Eno
+                Contexte et lexique
               </div>
 </div>
 <div class="md-footer__button md-icon">

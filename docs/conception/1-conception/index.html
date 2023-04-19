@@ -148,17 +148,12 @@
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../3-conception/">
-        Les déclarations (aides, consignes ou commentaires) EN COURS
+        Les déclarations
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../4-conception/">
         Les éléments dynamiques : contrôles, filtres et personnalisation
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../guide-conception/">
-        Description de l’offre standard de questionnaire web/papier avec l’outil Eno
       </a>
 </li>
 </ul>
@@ -204,40 +199,84 @@
           Orchestrateurs
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_1" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../orchestrateurs/enqueteur/">Enqueteur</a>
+<label for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_5_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_1">
+<span class="md-nav__icon md-icon"></span>
+          Enqueteur
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/0-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/enqueteur/1-queen/">
+        Typographie
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../orchestrateurs/enqueteur/2-queen/">
+        Zoning des questionnaires
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5_2" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../../orchestrateurs/web/">Web</a>
+<label for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_5_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_2">
+<span class="md-nav__icon md-icon"></span>
+          Web
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../orchestrateurs/web/0-stromae/">
         "Stromae" : à quoi ressemble un questionnaire web généré par la filière ?
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/1-stromae/">
-        Découpage du questionnaire et navigation (à revoir avec StromaeV3)
+<a class="md-nav__link" href="../../orchestrateurs/web/1-stromae/">
+        Découpage du questionnaire et navigation
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/2-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/2-stromae/">
         Page de début et page de fin
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/3-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/3-stromae/">
         La barre d'avancement
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/4-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/4-stromae/">
         La mise en forme des questions
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/5-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/5-stromae/">
         La numérotation
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../orchestrateurs/6-stromae/">
+<a class="md-nav__link" href="../../orchestrateurs/web/6-stromae/">
         La disposition des éléments du questionnaire
       </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -348,9 +387,11 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="les-types-de-questions-et-formats-de-reponses">Les types de questions et formats de réponses</h1>
-<p>Les choix de typologie de réponses, et en particulier de terminologie suscitent parfois des incompréhensions liées au décalage entre un vocabulaire « contrôlé » (calqué sur une description formelle), et un vocabulaire « courant ». Le plus souvent, on englobe dans le terme « question », le libellé de la question ET son champ de réponse. Par exemple la question « Quel est votre parfum de glace préféré ? » pourra prendre plusieurs formes :
-- une question ouverte, dont la réponse est dite simple, avec un champ texte libre ;
-- une question associée à une réponse à choix unique, en proposant une liste fermée de modalités de réponse. On parle parfois par abus de langage de question à choix unique, il s’agit en fait d’une question avec réponse à choix unique.</p>
+<p>Les choix de typologie de réponses, et en particulier de terminologie suscitent parfois des incompréhensions liées au décalage entre un vocabulaire « contrôlé » (calqué sur une description formelle), et un vocabulaire « courant ». Le plus souvent, on englobe dans le terme « question », le libellé de la question ET son champ de réponse. Par exemple la question « Quel est votre parfum de glace préféré ? » pourra prendre plusieurs formes :</p>
+<ul>
+<li>une question ouverte, dont la réponse est dite simple, avec un champ texte libre ;</li>
+<li>une question associée à une réponse à choix unique, en proposant une liste fermée de modalités de réponse. On parle parfois par abus de langage de question à choix unique, il s’agit en fait d’une question avec réponse à choix unique.</li>
+</ul>
 <p>L'atelier de conception propose de nombreux types de questions, comportant des formats de réponse plus ou moins complexes. Ces formats sont répartis en 5 groupes (du plus simple au plus complexe) : </p>
 <ul>
 <li>les questions ouvertes ou réponses simples</li>
@@ -359,35 +400,41 @@
 <li>les tableaux</li>
 </ul>
 <h2 id="les-questions-ouvertes-ou-reponses-dites-simples">Les questions ouvertes ou réponses dites simples</h2>
-<p>Il s’agit de répondre à une question ouverte, comprenant un seul champ, libre, c’est-à-dire ne reposant pas sur une liste de codes fermée. Les formats de réponses peuvent varier :
-- texte (dont le nombre maximum de caractères ou le « motif » – adresse mail par exemple – peuvent être précisés) ;
-- numérique (les bornes maximum et minimum, ainsi que le nombre de décimales doivent être précisés ; l’affichage de l’unité constitue une aide pour le répondant – une liste d’unités est proposée dans Pogues).
-- date (au format AAAA-MM-JJ, AAAA-MM ou AAAA) ;
-- booléen (pour ce dernier type de réponse, seule la case à cocher est proposée comme mise en forme). A REVOIR AVEC SWITCH</p>
+<p>Il s’agit de répondre à une question ouverte, comprenant un seul champ, libre, c’est-à-dire ne reposant pas sur une liste de codes fermée. Les formats de réponses peuvent varier :</p>
+<ul>
+<li>texte (dont le nombre maximum de caractères ou le « motif » – adresse mail par exemple – peuvent être précisés) ;</li>
+<li>numérique (les bornes maximum et minimum, ainsi que le nombre de décimales doivent être précisés ; l’affichage de l’unité constitue une aide pour le répondant – une liste d’unités est proposée dans Pogues).</li>
+<li>date (au format AAAA-MM-JJ, AAAA-MM ou AAAA) ;</li>
+<li>booléen : pour ce type de réponse, seule la case à cocher est proposée comme mise en forme, mais une évolution pour proposer un visuel de type "switch" est en cours.</li>
+</ul>
 <h2 id="les-questions-a-choix-unique-de-reponse">Les questions à choix unique de réponse</h2>
-<p>Il s’agit de répondre à une question qualitative, s’appuyant sur une liste de codes, et présentée sous forme de boutons radios, de liste déroulante ou de listes d'autocomplétion : parmi ces listes, l’enquêté ne peut effectuer qu’un seul choix.
-Boutons-radios : la mise en forme classique et accessible est un bouton radio et lorsque le répondant a sélectionné une réponse, elle ne peut plus être « désélectionnée » - il peut seulement sélectionner une autre modalité.</p>
+<p>Il s’agit de répondre à une question qualitative, s’appuyant sur une liste de codes, et présentée sous forme de boutons radios, de liste déroulante ou de listes d'autocomplétion : parmi ces listes, l’enquêté ne peut effectuer qu’un seul choix.</p>
+<p><strong>Boutons-radios</strong> : la mise en forme classique et accessible est un bouton radio et lorsque le répondant a sélectionné une réponse, elle ne peut plus être « désélectionnée » - il peut seulement sélectionner une autre modalité.</p>
 <p>Pour plusieurs enquêtes, les réponses des questions à choix unique sont représentées par des cases à cocher décochables afin d’offrir au répondant la possibilité de revenir sur sa réponse (en particulier annuler sa réponse, ce que ne permet pas le bouton-radio usuel), Il faut avoir conscience que cela contrevient aux standards du web et aux critères d’accessibilité. Sur le web ces deux représentations sont différentes.</p>
-<p>Liste en autocomplétion : ce type de variable permet à l'utilisateur de limiter la quantité d'informations qu'il saisit avec son clavier, en se voyant proposer un complément qui pourrait convenir à la chaîne de caractères qu'il a commencé à taper.</p>
-<p>Liste déroulante : permet de proposer une liste fermée assez longue de choix mais il est recommandé de privilégier l'autocomplétion lorsque cela est possible.</p>
+<p><strong>Liste en autocomplétion</strong> : ce type de variable permet à l'utilisateur de limiter la quantité d'informations qu'il saisit avec son clavier, en se voyant proposer un complément qui pourrait convenir à la chaîne de caractères qu'il a commencé à taper.</p>
+<p><strong>Liste déroulante</strong> : cette liste permet de proposer une liste fermée, généralemen pas trop longue de choix, mais il est recommandé de privilégier l'autocomplétion lorsque cela est possible ou que la liste est longue.</p>
 <h2 id="les-questions-a-choix-multiple">Les questions à choix multiple</h2>
-<p>Il s’agit de répondre à une question qualitative s’appuyant sur une liste de codes. Parmi cette liste, l’enquêté peut effectuer plusieurs choix :
-- soit en cochant plusieurs cases ;
-- soit en sélectionnant oui/non pour chacune des modalités.
-Ici encore, si le concepteur choisit des cases à cocher, elles seront décochables, s’il choisit des boutons radio, le répondant ne pourra pas annuler sa réponse (mais uniquement choisir une autre modalité).
-Cette mise en forme peut également être retenue pour des batteries de questions </p>
+<p>Il s’agit de répondre à une question qualitative s’appuyant sur une liste de codes. Parmi cette liste, l’enquêté peut effectuer plusieurs choix :</p>
+<ul>
+<li>soit en cochant plusieurs cases ;</li>
+<li>soit en sélectionnant oui/non pour chacune des modalités.</li>
+</ul>
+<p>Ici encore, si le concepteur choisit des cases à cocher, elles seront décochables, s’il choisit des boutons radio, le répondant ne pourra pas annuler sa réponse (mais uniquement choisir une autre modalité). Cette mise en forme peut également être retenue pour des batteries de questions </p>
 <h2 id="les-tableaux">Les tableaux</h2>
-<p>Usage : les tableaux permettent de présenter l’information à collecter, de manière compacte et visible en une seule fois. Il est communément reconnu dans la littérature que les tableaux doivent être évités lorsque c’est possible : d'une part ce format ne réponse ne se prête pas à l'accessibilité et d'autre part, si ce format est particulièrement familier aux statisticiens, ce n’est pas nécessairement le cas pour les répondants.
-Il est donc recommandé de poser plutôt les questions simplement de façon disjointe et si ce n'est pas possible de les simplifier.</p>
+<p><strong>Usage</strong> : les tableaux permettent de présenter l’information à collecter, de manière compacte et visible en une seule fois. Il est communément reconnu dans la littérature que les tableaux doivent être évités lorsque c’est possible : d'une part ce format ne réponse ne se prête pas à l'accessibilité et d'autre part, si ce format est particulièrement familier aux statisticiens, ce n’est pas nécessairement le cas pour les répondants.
+Il est donc recommandé de poser plutôt les questions simplement de façon disjointe et, si ce n'est pas possible, de les simplifier.</p>
 <p>Les tableaux comprennent un ou deux axes d’informations (qualitatifs) et une ou plusieurs mesures (pouvant prendre les différents formats des réponses simples et uniques).
 Les titres de colonnes sont définis colonne par colonne.
-La hauteur et la largeur des lignes sont calculées de manière automatique à partir de leur contenu. Cependant, certains tableaux particulièrement larges, donc illisibles, peuvent fait l’objet de développements spécifiques, réalisés par les intégrateurs - donc non visibles dans Pogues (feuilles de style en cascades ou CSS).</p>
-<p>Outre les tableaux à 2 dimensions fixées, il est possible de proposer des <strong>« tableaux dynamiques »</strong> donc des tableaux, en général préremplis, auxquels on peut ajouter des lignes (présence d’un bouton « “Ajouter”):
-- les lignes ajoutées auront toutes le même format, éventuellement différent du format des lignes qui les précèdent.
-- les tableaux dynamiques ne comportent pas d’entête de ligne.</p>
-<p>Cas particulier ; les listes hiérarchiques</p>
+La hauteur et la largeur des lignes sont calculées de manière automatique à partir de leur contenu. </p>
+<p>Outre les tableaux à 2 dimensions fixées, il est possible de proposer des <strong>« tableaux dynamiques »</strong> donc des tableaux, en général préremplis, auxquels on peut ajouter des lignes (présence d’un bouton "Ajouter"):</p>
+<ul>
+<li>les lignes ajoutées auront toutes le même format, éventuellement différent du format des lignes qui les précèdent ;</li>
+<li>les tableaux dynamiques ne comportent pas d’entête de ligne.</li>
+</ul>
+<p><strong>Cas particulier</strong> : les listes hiérarchiques</p>
 <p>Il est possible d’utiliser dans les tableaux des listes de codes hiérarchiques. La présentation imbriquée est pour l’instant la présentation par défaut.</p>
 <h2 id="les-liens-deux-a-deux">Les liens deux-à-deux</h2>
+<p>Ce type de question permet de décrire, pour les enquêtes ménages, les liens familiaux entre habitants d'un logement.</p>
 </article>
 </div>
 </div>
