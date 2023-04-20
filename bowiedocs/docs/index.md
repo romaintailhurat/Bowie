@@ -4,7 +4,7 @@ Bowie est un ensemble de solutions open-source et cohérentes permettant la cré
 
 Il propose :
 
-- [un studio de conception de modèles de questionnaire](/pogues) 
+- [un studio de conception de modèles de questionnaire](pogues) 
 - [un générateur de questionnaires](/eno/)
 - une bibliothèque de [composants graphiques incluant un moteur de contrôle](/lunatic)
 - deux solutions d'orchestration de ces composants pour [le web](/orchestrateurs/web/) d'une part et [la collecte par enquêteur](/orchestrateurs/enqueteur) d'autre part
