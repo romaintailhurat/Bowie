@@ -19,3 +19,10 @@ Dans la fenêtre qui s'ouvre, il faut donner l'identifiant du questionnaire :
     `https://pogues.demo.insee.io/questionnaire/abcdef12`
 
     l'identifiant est `abcdef12`
+
+Une fois le questionnaire récupéré depuis Pogues, il faut finaliser sa création dans Public Enemy :
+
+- en renseignant le contexte de collecte, "Ménages" ou "Entreprise",
+- en ajoutant un fichier de données correspondant aux unités enquêtées pour les tests que l'on souhaite mener.
+
+![Création d'un questionnaire étape 3](../../img/public-enemy/cr%C3%A9ation-questionnaire-3.png)
