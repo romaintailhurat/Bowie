@@ -20,10 +20,14 @@ Dans le fichier CSV de schéma :
 
 On peut remplir les données à partir de ce fichier schéma :
 
-...
+...![Variables externes données](../../img/public-enemy/var-ext-data.png)
+
+!!!warning
+
+    Un fichier de donnée ne pourra contenir qu'un maximum de 10 unités enquêtées.
 
 Puis charger avec le bouton "Charger les unités enquêtées", puis valider la création avec le bouton "Créer le questionnaire dans les orchestrateurs".
 
 !!!note
     
-    Selon la taille du questionnaire cette création peut durer plusieurs minutes
+    Selon la taille du questionnaire cette création peut durer plusieurs minutes.
