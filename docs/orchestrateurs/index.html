@@ -426,7 +426,7 @@
 <h2 id="a-quoi-sert-un-orchestrateur">A quoi sert un orchestrateur ?</h2>
 <p>Les orchestrateurs permettent d'interfacer le LunaticModel, format en sortie d’Eno, pour "représenter"/"visualiser" les questionnaires : la bibliothèque de composants JS (javascript) permet d'instancier des composants et l'orchestrateur qui ajoute des couches à un fonctionnement natif. </p>
 <p>→ <a href="https://mermaid.ink/img/pako:eNqNk0tuwjAQhq9ieUUlDCrLLLopdEXTB-oKdzHEA3Hl2KkfrRDiLl32HlysJoSSRI1UL6J5fPlnPBrvaGYE0oSulfnMcrCezJ-5nmnDtQurjYUyJw82y9F5Cx6D5ZrEMw8avMwGL14q6fDsX52yt6Yory_m5GJOjR-MRqMGl57MpxArSKM1SIuDllfDc7OR7wEfrSktLscpfMgNHKHx6x_AZDle-K3Cc7L5rZtlrDTBEqmdB51JtIzdNDr_pRQ6ksW4caC9q6FJBzp8kTJOT55F4kU7hAikMOLwrbBG0mZPVeGqVsy2rt-YI2MWnMNiVWn0ULEyY-j7gZQxeDPB92i0xsiYA1JWJlGnxD_-io32wqgF11y3ondSgzpG494xVk-M3MfNVFGgs34tt6tfKdEhLdAWIEVc7N2xP059jgVymkRT4BqC8pxyvY9oKEWUmgnpjaXJGpTDIYXgzWKrM5p4G_AMTSXEF1HU1P4HDbEfNg">Schéma</a></p>
-<div class="highlight"><pre><span></span><code>flowchart LR
+<pre class="mermaid"><code>flowchart LR
 Eno
 subgraph Orchestrateur
     Lunatic(Utilise Lunatic)
@@ -456,7 +456,7 @@ QuestionnaireFinal
 
 Eno--Lunatic Model--&gt;Orchestrateur
 Orchestrateur--&gt;QuestionnaireFinal
-</code></pre></div>
+</code></pre>
 <h2 id="les-orchestrateurs-actuels">Les orchestrateurs actuels</h2>
 <ul>
 <li><strong>Stromae</strong> : orchestrateur d'instruments de collecte type "questionnaire Web". <ul>
