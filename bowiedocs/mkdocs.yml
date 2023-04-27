@@ -17,6 +17,7 @@ extra:
       link: https://github.com/InseeFr/Bowie/
 markdown_extensions:
   - admonition
+  - tables
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:

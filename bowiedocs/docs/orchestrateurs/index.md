@@ -58,6 +58,7 @@ Orchestrateur-->QuestionnaireFinal
  - Afficher le questionnaire en lecture seule  
 
 **Proposer une expérience de navigation au travers du questionnaire** 
+
 | Stromae | Queen|  
 | -------- | -------- |  
 | Afficher une page d’accueil personnalisable pour chaque enquête à partir de métadonnées|
@@ -77,6 +78,7 @@ Orchestrateur-->QuestionnaireFinal
 | Se déconnecter  | Arrêt provisoire du questionnaire,  arrêt définitif, Quitter|
 
 **Données et paradonnées** 
+
 | Stromae | Queen|  
 | -------- | -------- |  
 | Permettre la persistance de la donnée | Permettre la persistance de la donnée y compris en offline|
@@ -84,6 +86,7 @@ Orchestrateur-->QuestionnaireFinal
 | Permettre la persistance de la paradonnée  | Permettre la persistance de la paradonnée en offline|
 
 **Fonctionnalités "spécifiques"** 
+
 | Stromae | Queen|  
 | -------- | -------- |  
 | Redirection quand la page n'existe pas dans |
