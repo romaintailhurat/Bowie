@@ -487,6 +487,20 @@
 </nav>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#boucles">
+    Boucles
+  </a>
+<nav aria-label="Boucles" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#premiet-et-dernier-elements">
+    Premiet et dernier éléments
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#controles_1">
     Contrôles
   </a>
@@ -716,6 +730,20 @@
 </nav>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#boucles">
+    Boucles
+  </a>
+<nav aria-label="Boucles" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#premiet-et-dernier-elements">
+    Premiet et dernier éléments
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#controles_1">
     Contrôles
   </a>
@@ -922,6 +950,15 @@ $MA_VARIABLE_BOOLEENNE$
 (if (nvl($QCM4$, false) = true) then 1 else 0)
 </code></pre></div>
 <p><span class="label label-rounded label-primary">À noter</span> Cette solution est fastidieuse et difficile à mettre en place pour des longues listes. Des fonctionnalités non-encore disponibles dans VTL permettront à terme une expression plus directe de ce calcul.</p>
+<h3 id="boucles">Boucles</h3>
+<h4 id="premiet-et-dernier-elements">Premiet et dernier éléments</h4>
+<p>Imaginons une boucle permettant de collecter des prénoms (à travers la variable <code>$PRENOM$</code>). Les fonctions <code>first_value</code> et <code>last_value</code> permettent de récupérer respectivement le premier élément de la variable vectorielle <code>$PRENOM$</code> en écrivant :</p>
+<div class="highlight"><pre><span></span><code>first_value($PRENOM$ over())
+</code></pre></div>
+<p>ou</p>
+<div class="highlight"><pre><span></span><code>last_value($PRENOM$ over())
+</code></pre></div>
+<p>...par exemple à travers une variable calculée.</p>
 <h3 id="controles_1">Contrôles</h3>
 <h4 id="non-reponse">Non-réponse</h4>
 <p>Dans la plupart des cas, vérifier une potentielle non-réponse c'est vérifier que la variable sous-jacente n'a pas été valorisée. Il faut donc écrire un contrôle pour tester la <em>nullité</em> de la variable :</p>

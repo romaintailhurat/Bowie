@@ -252,6 +252,24 @@ On souhaite calculer le nombre de cases cochées dans une liste à choix multipl
 
 <span class="label label-rounded label-primary">À noter</span> Cette solution est fastidieuse et difficile à mettre en place pour des longues listes. Des fonctionnalités non-encore disponibles dans VTL permettront à terme une expression plus directe de ce calcul.
 
+### Boucles
+
+#### Premiet et dernier éléments
+
+Imaginons une boucle permettant de collecter des prénoms (à travers la variable `$PRENOM$`). Les fonctions `first_value` et `last_value` permettent de récupérer respectivement le premier élément de la variable vectorielle `$PRENOM$` en écrivant :
+
+```
+first_value($PRENOM$ over())
+```
+
+ou
+
+```
+last_value($PRENOM$ over())
+```
+
+...par exemple à travers une variable calculée.
+
 ### Contrôles
 
 #### Non-réponse
