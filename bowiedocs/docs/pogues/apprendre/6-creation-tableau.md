@@ -1,3 +1,0 @@
-#  Création d'un tableau
-
-...

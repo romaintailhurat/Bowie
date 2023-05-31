@@ -5,11 +5,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="../1-creation-questionnaire/" rel="prev"/>
-<link href="../3-visualisation-questionnaire/" rel="next"/>
+<link href="../3-visualisation-questionnaire/" rel="prev"/>
+<link href="../5-elaboration-structure/" rel="next"/>
 <link href="../../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.3" name="generator"/>
-<title>Création d'une première séquence - Bowie</title>
+<title>Création d'une réponse basée sur une liste - Bowie</title>
 <link href="../../../assets/stylesheets/main.c4a75a56.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -33,7 +33,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#creation-dune-premiere-sequence">
+<a class="md-skip" href="#creation-dune-reponse-basee-sur-une-liste">
           Aller au contenu
         </a>
 </div>
@@ -57,7 +57,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Création d'une première séquence
+              Création d'une réponse basée sur une liste
             
           </span>
 </div>
@@ -297,18 +297,32 @@
           Pogues
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_8_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_8_2" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../">Apprendre</a>
-<label for="__nav_8_2">
+<a href="../../guide/">Guide</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_8_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_2">
+<span class="md-nav__icon md-icon"></span>
+          Guide
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_8_3" type="checkbox"/>
+<div class="md-nav__link md-nav__link--index">
+<a href="../">Tutoriel</a>
+<label for="__nav_8_3">
 <span class="md-nav__icon md-icon"></span>
 </label>
 </div>
-<nav aria-expanded="true" aria-labelledby="__nav_8_2_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_8_2">
+<nav aria-expanded="true" aria-labelledby="__nav_8_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_8_3">
 <span class="md-nav__icon md-icon"></span>
-          Apprendre
+          Tutoriel
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -316,14 +330,24 @@
         Création d'un questionnaire
       </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2-creation-premiere-sequence/">
+        Création d'une première séquence
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../3-visualisation-questionnaire/">
+        Visualisation du questionnaire
+      </a>
+</li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          Création d'une première séquence
+          Création d'une réponse basée sur une liste
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        Création d'une première séquence
+        Création d'une réponse basée sur une liste
       </a>
 <nav aria-label="Table des matières" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -332,51 +356,22 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#creation-de-la-sequence">
-    Création de la séquence
+<a class="md-nav__link" href="#creation-dune-liste">
+    Création d'une liste
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#creation-dune-question">
-    Création d'une question
-  </a>
-<nav aria-label="Création d'une question" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#identification">
-    Identification
+<a class="md-nav__link" href="#ajout-de-modalites">
+    Ajout de modalités
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#format-de-reponse">
-    Format de réponse
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#creation-de-la-variable">
-    Création de la variable
+<a class="md-nav__link" href="#finalisation">
+    Finalisation
   </a>
 </li>
 </ul>
 </nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sauvegarde-du-questionnaire">
-    Sauvegarde du questionnaire
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../3-visualisation-questionnaire/">
-        Visualisation du questionnaire
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../4-creation-liste-qcu/">
-        Création d'une réponse basée sur une liste
-      </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../5-elaboration-structure/">
@@ -463,37 +458,18 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#creation-de-la-sequence">
-    Création de la séquence
+<a class="md-nav__link" href="#creation-dune-liste">
+    Création d'une liste
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#creation-dune-question">
-    Création d'une question
-  </a>
-<nav aria-label="Création d'une question" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#identification">
-    Identification
+<a class="md-nav__link" href="#ajout-de-modalites">
+    Ajout de modalités
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#format-de-reponse">
-    Format de réponse
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#creation-de-la-variable">
-    Création de la variable
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#sauvegarde-du-questionnaire">
-    Sauvegarde du questionnaire
+<a class="md-nav__link" href="#finalisation">
+    Finalisation
   </a>
 </li>
 </ul>
@@ -503,59 +479,31 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="creation-dune-premiere-sequence">Création d'une première séquence</h1>
-<p>Une fois le questionnaire créé, on arrive sur la vue d'ensemble (dite <em>vue structurelle</em>) du questionnaire.</p>
-<p>Celui-ci est vide, donnons-lui du contenu ! <img alt="😄" class="twemoji" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f604.svg" title=":smile:"/></p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Un questionnaire est composé de séquences, sous-séquences et question. Les possibilités d'articulation sont les suivantes :</p>
-<div class="highlight"><pre><span></span><code>|-séquence
-|-- question
-|-- sous-séquence
-|--- question
-</code></pre></div>
-<p>Un questionnaire contient au moins une séquence, qui contient au moins une question.</p>
-<p>Une séquence contient des questions ou / et des sous-séquences. Une sous-séquence peut contenir des questions.</p>
-</div>
-<h2 id="creation-de-la-sequence">Création de la séquence</h2>
-<p>Pour créer la première séquence, il suffit de cliquer sur le bouton "+ Séquence" de la barre d'actions :</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/barre-actions-sequence.png"><img alt="Création d'une séquence" src="../../../img/pogues/barre-actions-sequence.png"/></a></p>
-<p>Dans la fenêtre modale qui s'ouvre, on remplit deux champs :</p>
+<h1 id="creation-dune-reponse-basee-sur-une-liste">Création d'une réponse basée sur une liste</h1>
+<p>Dans notre première version de la question "OKREP", nous avons choisi comme format de réponse un champ textuel. Après coup, il semble préférable de fournir une liste fermée de réponse - "Oui" ou "Non".</p>
+<p>Pour modifier la question, il faut sélectionner l'élément qui matérialise cette dernière puis cliquer sur le bouton "Voir le détail" :</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/modification-question-okrep.png"><img alt="Modifier une question" src="../../../img/pogues/modification-question-okrep.png"/></a></p>
+<h2 id="creation-dune-liste">Création d'une liste</h2>
+<p>Modifions dans l'onglet "Format des réponses" le <em>Type de question</em> pour choisir "Réponse à choix unique".</p>
+<p>On garde l'option "Créer une liste", puis on donne un nom à la liste que l'on va créer, par exemple "LISTE_OUI_NON" (champ <em>Nouvelle liste de code</em>).</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/qcu-creation-liste.png"><img alt="Création liste" src="../../../img/pogues/qcu-creation-liste.png"/></a></p>
+<h2 id="ajout-de-modalites">Ajout de modalités</h2>
+<p>Sous le champ <em>Nouvelle liste de code</em> on trouve les modalités de la liste. Pour l'instant, cette liste est vide, créons une nouvelle modalité :</p>
 <ul>
-<li><em>Libellé</em> avec le titre "Participation au questionnaire"</li>
-<li><em>Identifiant</em> que l'on modifie pour qu'il soit "MODULE1"</li>
+<li>en cliquant sur "+ Ajouter un code"</li>
+<li>dans le champ qui apparaît, en renseignant "1" pour le code de la modalité et "Oui" pour le libellé.</li>
+<li>même chose avec le code "2" et le libellé "Non".</li>
 </ul>
-<p>Les modes de collecte restent les mêmes que ceux du questionnaire.</p>
-<p>Pour finaliser la création, on appuie sur le bouton "Valider" en bas de la fenêtre :</p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/creation-sequence-valider.png"><img alt="Valider la séquence" src="../../../img/pogues/creation-sequence-valider.png"/></a></p>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/barre-actions.png"><img alt="Barre d'actions" src="../../../img/pogues/barre-actions.png"/></a></p>
-<h2 id="creation-dune-question">Création d'une question</h2>
-<p>Dans la barre des actions, le bouton "+ Question" permet la création d'une question.</p>
-<h3 id="identification">Identification</h3>
-<p>Dans la fenêtre modale qui apparaît :</p>
-<ul>
-<li><em>Libellé</em> "Souhaitez-vous répondre à ce questionnaire ?"</li>
-<li><em>Identifiant</em> "OKREP"</li>
-</ul>
-<h3 id="format-de-reponse">Format de réponse</h3>
-<p>Pogues propose plusieurs formats de réponse qui peuvent être ensuite paramétrés.</p>
-<p>Dans l'onglet "Format des réponses", on choisit comme <em>Type de question</em> "Réponse simple" et <em>Type de réponse</em> "Texte", ce qui va permettre de créer un champ de réponse textuel.</p>
-<p>On revient dans la section suivante sur le détail des options, mais terminons d'abord la création de cette première question.</p>
-<p>Pour cela, il reste une dernière étape, la création de la variable sous-jacente.</p>
-<h3 id="creation-de-la-variable">Création de la variable</h3>
-<p>Pogues distingue la question de la réponse et de la donnée collectée - la variable. Il faut donc explicitement créer cette dernière.</p>
-<p>Pour cela, on se dirige vers l'onglet "Variables collectées" puis on clique sur le bouton "Générer variables collectées".</p>
-<p>On peut enfin valider la question en cliquant sur le plus gros bouton "Valider" en bas de la fenêtre.</p>
-<h2 id="sauvegarde-du-questionnaire">Sauvegarde du questionnaire</h2>
-<p>Nous disposons maintenant d'un questionnaire simple, contenant une séquence et une question, il est temps de <span class="twemoji"><svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15 9H5V5h10m-3 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3m5-16H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V7l-4-4Z"></path></svg></span> <strong>sauvegarder</strong> ! </p>
-<p>Un simple clic sur le bouton "Sauvegarder" de la barre d'action fait l'affaire.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/qcu-creation-modalite.png"><img alt="Création modalité" src="../../../img/pogues/qcu-creation-modalite.png"/></a></p>
+<h2 id="finalisation">Finalisation</h2>
+<p>Nous avons modifié le format de la réponse, il est donc nécessaire <a href="../2-creation-premiere-sequence/#creation-de-la-variable">de générer une nouvelle fois la variable sous-jacente</a> qui a changé de nature.</p>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
 <nav aria-label="Pied de page" class="md-footer__inner md-grid">
-<a aria-label="Précédent: Création d'un questionnaire" class="md-footer__link md-footer__link--prev" href="../1-creation-questionnaire/" rel="prev">
+<a aria-label="Précédent: Visualisation du questionnaire" class="md-footer__link md-footer__link--prev" href="../3-visualisation-questionnaire/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -564,17 +512,17 @@
 <span class="md-footer__direction">
                   Précédent
                 </span>
-                Création d'un questionnaire
+                Visualisation du questionnaire
               </div>
 </div>
 </a>
-<a aria-label="Suivant: Visualisation du questionnaire" class="md-footer__link md-footer__link--next" href="../3-visualisation-questionnaire/" rel="next">
+<a aria-label="Suivant: Élaboration de la structure du questionnaire" class="md-footer__link md-footer__link--next" href="../5-elaboration-structure/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                   Suivant
                 </span>
-                Visualisation du questionnaire
+                Élaboration de la structure du questionnaire
               </div>
 </div>
 <div class="md-footer__button md-icon">
