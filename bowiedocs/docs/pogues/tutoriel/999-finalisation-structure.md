@@ -1,3 +1,0 @@
-# Finalisation de la structure du questionnaire
-
-....

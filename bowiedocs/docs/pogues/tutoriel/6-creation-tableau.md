@@ -20,7 +20,7 @@ Ici, on choisit le format "Liste de codes".
 
 ![Tableau axe principal](../../img/pogues/tableau-axe-principal.png)
 
-On [charge la liste de code](../guide/liste-de-code.md) à partir du fichier ["entreprises-activites.csv"](../../data/entreprises-activites.csv).
+On [charge la liste de code](../guide/liste-de-code/#chargement-a-partir-dun-fichier-csv) à partir du fichier ["entreprises-activites.csv"](../../data/entreprises-activites.csv).
 
 ## Définition des colonnes
 
