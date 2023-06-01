@@ -360,9 +360,31 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Création d'un tableau
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
         Création d'un tableau
       </a>
+<nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#definition-des-lignes">
+    Définition des lignes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#definition-des-colonnes">
+    Définition des colonnes
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../999-finalisation-structure/">
@@ -433,6 +455,22 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table des matières" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#definition-des-lignes">
+    Définition des lignes
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#definition-des-colonnes">
+    Définition des colonnes
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -447,14 +485,26 @@
 <li>et l'identifiant "ACTIVITES".</li>
 </ul>
 <p>Nous choisissons ensuite le type de question "Tableau".</p>
+<h2 id="definition-des-lignes">Définition des lignes</h2>
 <p>Le choix suivant du format de l'axe principal va permettre de déterminer le type de tableau que l'on va construire :</p>
 <ul>
-<li>Liste → pour la création d'un tableau dynamique, c'est à dire d'un tableau dont le nombre de lignes min et max est déterminé par des entiers numériques,</li>
-<li>Liste de codes → pour la création d'un tableau disposant d'entêtes de lignes créés à partir d'une liste de code.</li>
+<li><em>Liste</em> → pour la création d'un tableau dynamique, c'est à dire d'un tableau dont le nombre de lignes min et max est déterminé par des entiers numériques,</li>
+<li><em>Liste de codes</em> → pour la création d'un tableau disposant d'entêtes de lignes créés à partir d'une liste de code.</li>
 </ul>
 <p>Ici, on choisit le format "Liste de codes".</p>
 <p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/tableau-axe-principal.png"><img alt="Tableau axe principal" src="../../../img/pogues/tableau-axe-principal.png"/></a></p>
-<p>On <a href="../../guide/liste-de-code/">charge la liste de code</a> "qsmldkf.csv".</p>
+<p>On <a href="../../guide/liste-de-code/">charge la liste de code</a> à partir du fichier <a href="../../../data/entreprises-activites.csv">"entreprises-activites.csv"</a>.</p>
+<h2 id="definition-des-colonnes">Définition des colonnes</h2>
+<p>Pour créer les colonnes du tableau, rendez-vous un peu plus bas dans la section "Information mesurée". Ici, nous souhaitons créer une colonne pour collecter le pourcentage de temps de travail alloué à chacune des activités de la liste.</p>
+<p>On remplit donc le <em>Libellé de l'information mesurée</em> avec "Pourcentage de votre temps de travail moyen" (ce sera le titre de la colonne), puis l'on choisit  :</p>
+<ul>
+<li><em>Type de mesure</em> "Réponse simple"</li>
+<li><em>Type de réponse</em> "Nombre" avec un min à 0 et un max à 100</li>
+<li><em>Unité de mesure</em> "%"</li>
+</ul>
+<p>Puis on valide.</p>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-type="image" data-width="100%" href="../../../img/pogues/tableau-colonne.png"><img alt="Tableau colonne" src="../../../img/pogues/tableau-colonne.png"/></a></p>
+<p>Il ne reste qu'à générer les variables puis à valider la question.</p>
 </article>
 </div>
 </div>
