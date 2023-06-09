@@ -22,6 +22,10 @@ graph TD
   end
 ```
 
+!!! note
+
+    Référence dynamique signifie ici que tout changement dans le questionnaire cible sera disponible dans le questionnaire qui l'importe, ce qui est différent de la fonctionnalité de Fusion qui copie le questionnaire cible une fois puis ne le met plus à jour.
+
 Le questionnaire Pogues s'enrichit d'un nouvel élément qui marque cette ou ces références à d'autres questionnaires. :point_down:
 
 ![Exemple compo](../../img/pogues/composition-questionnaire-exemple.png)
