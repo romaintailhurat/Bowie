@@ -58,7 +58,3 @@ Une fois la référence ajoutée, le questionnaire hôte peut mobiliser :
 Il est également possible de filtrer une référence. :point_down:
 
 ![Filtre sur référence](../../img/pogues/composition-filtre.png)
-
-## Limites actuelles
-
-...
