@@ -29,6 +29,7 @@ Il faut donner un "Titre" et un "Identifiant" au questionnaire. Par défaut, un 
 ## Modes
 
 Quatre modes de collecte sont disponibles :
+
 - CAPI, pour les enquêtes en face-à-face par l'intermédiaire d'un enquêteur
 - CATI, pour les enquêtes par téléphone
 - CAWI, pour les enquêtes via Internet
@@ -48,3 +49,5 @@ Les dernières options permettent de définir les aspects dynamiques du parcours
 
 - la gestion de l'affichage ou non des objets ("Redirection" ou "Filtre")
 - le langage utilisé pour les contrôles, filtres, calculs de variables ("XPath" ou "VTL")
+
+Pour ce tutoriel, nous choisissons "Filtre" et "VTL".
